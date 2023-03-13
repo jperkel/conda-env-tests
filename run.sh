@@ -1,5 +1,13 @@
 #!/bin/bash 
 
+# ensure conda installed
+# from https://stackoverflow.com/questions/592620/how-can-i-check-if-a-program-exists-from-a-bash-script
+if [ ! command -v conda &> /dev/null ]; 
+then
+   echo "conda could not be found."
+   exit
+fi
+  
 # re conda 'run' command, see: 
 # https://stackoverflow.com/questions/34534513/calling-conda-source-activate-from-bash-scrip
 echo "Running hello_world2.py in environment python2"
