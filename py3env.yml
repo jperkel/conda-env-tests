@@ -2,20 +2,4 @@ name: jperkel-py3env
 channels:
   - defaults
 dependencies:
-  - bzip2=1.0.8
-  - ca-certificates=2023.01.10
-  - certifi=2022.9.24
-  - libffi=3.4.2
-  - ncurses=6.4
-  - openssl=1.1.1t
-  - pip=22.2.2
   - python=3.11.0
-  - readline=8.2
-  - setuptools=65.5.0
-  - sqlite=3.40.1
-  - tk=8.6.12
-  - tzdata=2022g
-  - wheel=0.37.1
-  - xz=5.2.10
-  - zlib=1.2.13
-prefix: /Users/jpn8428/opt/anaconda3/envs/python3
