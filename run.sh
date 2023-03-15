@@ -16,10 +16,10 @@ echo ""
 echo "Running hello_world2.py in Python 3.11"
 conda run -n jperkel-py3env python hello_world2.py
 echo ""
-echo "Running dataframe.R in R 3.6"
-conda run -n jperkel-r36env Rscript dataframe.R
-echo ""
 echo "Running dataframe.R in R 4.2"
 conda run -n jperkel-r42env Rscript dataframe.R
+echo ""
+echo "Running dataframe.R in R 3.6"
+conda run -n jperkel-r36env Rscript dataframe.R
 
 
