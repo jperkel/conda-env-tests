@@ -10,6 +10,7 @@ if ! conda env list | grep 'jperkel-' >/dev/null 2>&1; then
 
     echo "Creating environments."
     for file in *.yml; do
+        echo "Creating environment from file $file..."
         conda env create -f "$file"
     done
 else 

@@ -8,7 +8,10 @@ if conda env list | grep 'jperkel-' >/dev/null 2>&1; then
     fi
 
     echo "Deleting environments..."
-    for env in "jperkel-r36env" "jperkel-r42env" "jperkel-py2env" "jperkel-py3env"; do
+    # get list of environments
+    envs=$(conda env list | grep jperkel | cut -f1 -w)
+    for env in $envs; do
+        echo "Deleting environment $env"
         conda env remove -n "$env"
     done
 else 
