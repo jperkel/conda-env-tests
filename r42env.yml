@@ -1,4 +1,4 @@
-name: r42
+name: jperkel-r42env
 channels:
   - conda-forge
   - defaults

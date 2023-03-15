@@ -1,4 +1,4 @@
-name: python2
+name: jperkel-py2env
 channels:
   - defaults
 dependencies:

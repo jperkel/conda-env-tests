@@ -1,4 +1,4 @@
-name: r36
+name: jperkel-r36env
 channels:
   - defaults
 dependencies:

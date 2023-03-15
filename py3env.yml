@@ -1,4 +1,4 @@
-name: python3
+name: jperkel-py3env
 channels:
   - defaults
 dependencies:
