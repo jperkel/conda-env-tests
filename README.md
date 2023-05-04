@@ -1,6 +1,6 @@
 # conda-env-tests
 
-Scripts and environment files to test computational environments with `conda`. 
+Scripts and environment files to test computational environments with `conda`. This repository was created to accompany a _Nature_ Technology Feature: "[The sleight-of-hand trick that can simplify scientific computing](https://www.nature.com/articles/d41586-023-01469-0)" (01 May 2023).
 
 ## Instructions
 1. [Install conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) if you haven't already.
